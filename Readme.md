@@ -15,13 +15,13 @@ Creating a tsconfig.json
 `npx tsc --init`
 
 Scripts to add to **package.json** to build/compile/run the server
-`js
+```js
     "scripts": {
         "dev": "nodemon --exec ts-node src/index.ts",
         "build": "tsc",
         "start": "node dist/index.js"
     },
-`
+```
 
 More **package.json** updates
 `"type": "module"`
