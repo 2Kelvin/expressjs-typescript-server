@@ -37,6 +37,8 @@ More **package.json** updates
 "main": "dist/index.ts"
 ```
 
+Make your **tsconfig.json** as one above: uncomment *rootdir* and *outdir* and in types add *"node"*
+
 To run the server in development with hot reloading, run
 ```js
 npm run dev
